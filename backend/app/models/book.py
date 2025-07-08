@@ -9,7 +9,7 @@ from sqlalchemy import Column, Integer, String, Text, ForeignKey
 from sqlalchemy.orm import relationship
 
 # Local Imports
-from app.database import Base
+from app.database.database import Base
 
 
 class Book(Base):
